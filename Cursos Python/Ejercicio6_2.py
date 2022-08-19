@@ -9,9 +9,9 @@ class alumno:
     
     def aprovado(self):
         if self.calificacion<6:
-            print("El alumno esta reprovado")
+            print("El alumno esta reprobado")
         else:
-            print("El alumno esta aprovado")
+            print("El alumno esta aprobado")
             
 alumno1=alumno("Ricardo",10)
 alumno2=alumno("Maria",5)

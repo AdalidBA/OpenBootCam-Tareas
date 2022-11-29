@@ -5,6 +5,9 @@ from tkinter import ttk
 defatultext="Seleccione una opción"
 
 window=tkinter.Tk()
+s=ttk.Style(window)
+print(s.theme_names())
+s.theme_use("xpnative")
 opcion=tkinter.StringVar()
 
 window.columnconfigure(0,weight=1)
@@ -32,5 +35,6 @@ r3.grid(column=0,row=3)
 
 btn=ttk.Label(text="Mi texto ")
 btn.grid(column=0,row=4)
+
 
 window.mainloop()
